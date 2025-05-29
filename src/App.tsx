@@ -1,4 +1,5 @@
-import {type FormEvent, useState, useCallback} from 'react'
+import { useState, useCallback } from 'preact/hooks'
+import {type TargetedEvent} from 'preact/compat';
 import ecc from '@bitcoinerlab/secp256k1';
 import {BIP47Factory} from "@samouraiwallet/bip47";
 import * as utils from '@samouraiwallet/bip47/utils';
@@ -15,7 +16,7 @@ function App() {
     const [result, setResult] = useState<boolean | null>(null);
     const [error, setError] = useState<string | null>(null);
 
-    const onSubmit = useCallback((event: FormEvent<HTMLFormElement>) => {
+    const onSubmit = useCallback((event: TargetedEvent<HTMLFormElement>) => {
         event.preventDefault();
         setError(null);
 
@@ -41,7 +42,7 @@ function App() {
 
     return (
         <>
-            <h1>BIP47 Message verifier</h1>
+            <h1>BIP47 Message Verifier</h1>
             <div className="card">
                 <form onSubmit={onSubmit}>
                     <div>
