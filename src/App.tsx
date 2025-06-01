@@ -1,11 +1,9 @@
-import { useState, useCallback } from 'preact/hooks'
+import {useState, useCallback} from 'preact/hooks'
 import {type TargetedEvent} from 'preact/compat';
 import ecc from '@bitcoinerlab/secp256k1';
 import {BIP47Factory} from "@samouraiwallet/bip47";
-import * as utils from '@samouraiwallet/bip47/utils';
+import {networks} from '@samouraiwallet/bip47/utils';
 import {bitcoinMessageFactory} from "@samouraiwallet/bitcoinjs-message";
-
-const networks = utils.networks;
 
 const bip47 = BIP47Factory(ecc);
 const bitcoinjsMessage = bitcoinMessageFactory(ecc);
