@@ -15,8 +15,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(typescript@5.8.3)
       '@samouraiwallet/bitcoinjs-message':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.1
+        version: 3.1.1
       preact:
         specifier: ^10.26.8
         version: 10.26.8
@@ -524,8 +524,8 @@ packages:
     resolution: {integrity: sha512-m6fI/T9I3MdG2TBfPmYyMdEjCikgL7DhhRKPQqMdk3KyR6KMdEJ2i5slBPQjkxqUIXI44uXaRVDLXTKFP4F9VA==}
     engines: {node: '>=18.14.0'}
 
-  '@samouraiwallet/bitcoinjs-message@3.1.0':
-    resolution: {integrity: sha512-v2p2d9dMQP80GAyx0olNcKVe9q3VROYM2GQZrwys8qNd+J9dwhLxSMc432HCEemx2B4hcuw2DnbiUsidRRvPMw==}
+  '@samouraiwallet/bitcoinjs-message@3.1.1':
+    resolution: {integrity: sha512-UkiI4dS3hK7B1wz+r4KRZixnoogzpdhQtkpWMYkMM42FH9EjLOgT00UrPoAnOg96kX/mpUdGab0Ky5knKlD/HQ==}
     engines: {node: '>=16.6.0'}
 
   '@scure/base@1.2.6':
@@ -1628,7 +1628,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@samouraiwallet/bitcoinjs-message@3.1.0':
+  '@samouraiwallet/bitcoinjs-message@3.1.1':
     dependencies:
       '@noble/hashes': 1.8.0
       '@scure/base': 1.2.6

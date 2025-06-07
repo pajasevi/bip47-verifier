@@ -12,7 +12,7 @@
   "dependencies": {
     "@bitcoinerlab/secp256k1": "^1.2.0",
     "@samouraiwallet/bip47": "^1.1.0",
-    "@samouraiwallet/bitcoinjs-message": "^3.1.0",
+    "@samouraiwallet/bitcoinjs-message": "^3.1.1",
     "preact": "^10.26.8"
   },
   "devDependencies": {
